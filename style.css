@@ -1,0 +1,112 @@
+button {
+  background-color: #3882F6;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  gap: 32px;
+}
+
+a {
+  color: #F9FAF8;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-back {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.head-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark-content {
+  display: flex;
+  align-items: center;
+}
+
+.dark-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+  width: 400px;
+}
+
+.hero-sec {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 400px;
+}
+
+.white-random {
+  display: flex;
+  flex-direction: column;
+}
+
+.random-title {
+  font-size: 24px; 
+  padding: 24px;
+  text-align: center;
+}
+
+.random-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.random-content p {
+  width: 200px;
+  text-align: center;
+}
+
+.random-content img {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+}
