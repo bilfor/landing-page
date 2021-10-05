@@ -19,16 +19,10 @@ a {
   text-decoration: none;
 }
 
-.container {
+.header-container {
   display: flex;
-  flex-direction: column;
-}
-
-.dark-back {
+  justify-content: center;
   background-color: #1F2937;
-  display: flex;
-  flex-direction: column;
-  justify content: center;
 }
 
 .header {
@@ -36,49 +30,48 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  width: 55%;
 }
 
-.logo {
+.head-left {
   color: #F9FAF8;
   font-weight: bold;
 }
 
-.head-links {
+.head-right {
   display: flex;
   justify-content: space-between;
 }
 
-.dark-content {
+.intro {
   display: flex;
+  justify-content: center;
   align-items: center;
+  background-color: #1F2937;
+  padding: 36px;
 }
 
-.dark-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hero-main {
+.intro-main {
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
   width: 400px;
 }
 
-.hero-sec {
+.intro-sec {
   font-size: 18px;
   color: #E5E7EB;
   width: 400px;
 }
 
-.white-random {
-  display: flex;
-  flex-direction: column;
+.intro img {
+  width: 600px;
+  height: 200px;
 }
 
 .random-title {
   font-size: 24px; 
+  font-weight: bold;
   padding: 24px;
   text-align: center;
 }
@@ -86,12 +79,12 @@ a {
 .random-content {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 .random-content p {
-  width: 200px;
   text-align: center;
+  width: 200px;
 }
 
 .random-content img {
@@ -99,14 +92,63 @@ a {
   border-radius: 10px;
 }
 
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote-box {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  align-items: center;
+  width: 800px;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
   font-weight: light;
+}
+
+.thor {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+}
+
+.cta-content {
+  display: flex;
+  background-color: #3882F6;
+  align-items: center;
+  color: white;
+  padding: 18px;
+  width: 60%;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-content button {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  justify-content: center;
+  padding: 18px;
 }
